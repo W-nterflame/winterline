@@ -4,7 +4,7 @@ from discord.ext import tasks, commands
 
 client = commands.Bot(
   command_prefix=':',
-  self_bot=True
+  // s_b =True
 )
 
 async def on_ready():
